@@ -1,0 +1,16 @@
+.side-item {
+    &.router-link-active {
+        svg {
+            path {
+                transition: all 0.3s;
+                fill: #F8991C;
+            }
+        }
+
+    }
+}
+#sideBar > section{
+    @media screen and (max-width:577px) {
+        padding-left: 0;
+    }
+}
